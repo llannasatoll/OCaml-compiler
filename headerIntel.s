@@ -1,0 +1,34 @@
+#define _R_ax %rax
+#define _R_0  %rbx
+#define _R_1  %rcx
+#define _R_dx %rdx
+#define _R_2  %rsi
+#define _R_3  %rdi
+#define _R_hp %rbp
+#define _R_sp %rsp
+#define _R_4  %r8
+#define _R_5  %r9
+#define _R_6  %r10
+#define _R_7  %r11
+#define _R_8  %r12
+#define _R_9  %r13
+#define _R_10 %r14
+#define _R_11 %r15
+
+#define _F_0 %xmm0
+#define _F_1 %xmm1
+#define _F_2 %xmm2
+#define _F_3 %xmm3
+#define _F_4 %xmm4
+#define _F_5 %xmm5
+#define _F_6 %xmm6
+#define _F_7 %xmm7
+#define _F_8 %xmm8
+#define _F_9 %xmm9
+#define _F_10 %xmm10
+#define _F_11 %xmm11
+#define _F_12 %xmm12
+#define _F_13 %xmm13
+#define _F_14 %xmm14
+#define _F_tmp %xmm15
+
