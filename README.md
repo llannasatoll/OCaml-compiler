@@ -1,11 +1,11 @@
 # OCaml-compiler
 
-## 使い方
+## 使い方（例）
 
-`cp headerIntel.s <file.ml>`
+`cp headerIntel.s gcd.ml`
 
-`cat <file.ml> | ./compiler >> <file.s>` or `make <gcd.s>`
+`cat gdc.ml | ./compiler >> gcd.s` or `make gcd.s`
 
-`gcc -m64 mainIntel.c <file.s> -o <file.x>` or `make <file.x>`
+`gcc -m64 mainIntel.c gcd.s -o gcd.x` or `make gcd.x`
 
-`./<file.x>` or `make <file.run>`
+`./gcd.x` or `make gcd.run`
